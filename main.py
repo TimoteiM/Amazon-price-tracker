@@ -29,7 +29,7 @@ if price < BUY_PRICE:
         connection.login(user=my_email, password="secret")
         connection.sendmail(from_addr=my_email,
                             to_addrs="moscaliuctimotei@gmail.com",
-                            msg=f"Subject:Amazon Price Alert!\n\n{message} at {price}")
+                            msg=f"Subject:Amazon Price Alert!\n\n{message}")
 
 
 
